@@ -13,6 +13,27 @@
   }
 }
 
+ul li {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.navbar ul {
+  display: flex;
+  display: flex;
+  width: 200px;
+  /* background-color: antiquewhite; */
+  justify-content: space-between;
+  /* margin-right: 20px; */
+  /* padding: 0px 15px; */
+  align-items: center;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +53,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
